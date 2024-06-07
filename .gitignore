@@ -1,0 +1,70 @@
+
+# pnpm
+.pnp/
+.pnp.js
+.pnp.cjs
+.pnpm-store/
+
+# Directories created by pnpm and other package managers
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+dist/
+build/
+.cache/
+tmp/
+out/
+logs/
+
+# Optional npm cache directory
+.npm/
+
+# Ignore lock files
+pnpm-lock.yaml
+npm-debug.log*
+
+# Ignore coverage reports
+coverage/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore OS generated files
+Thumbs.db
+*.swp
+
+# Ignore editor specific files
+*.vscode
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.sw?
+
+# Ignore yarn
+.yarn/
+.yarnrc.yml
+yarn.lock
+
+*.log*
+temp
+lib
+example
+dist-ssr
+*.local
+
+**/test.*
+**/tests.*
+**/test-*
+**/tests-*
+**/test
